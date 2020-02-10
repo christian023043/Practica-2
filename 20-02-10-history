@@ -1,0 +1,8 @@
+/open prueba factorial
+factorial(7);
+/open prueba factorial
+factorial(7);
+/open prueba factorial
+factorial(0);
+factorial(-8);
+/save -history 20-02-10-history

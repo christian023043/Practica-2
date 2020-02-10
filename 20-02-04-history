@@ -1,0 +1,55 @@
+/history
+ /open ej 2
+/open ej 2
+/open ej 2
+/open ej 2
+/open ej 2
+/open ej 2
+/open ej 2
+/open ej 2
+/open ej 2
+findPrimes();
+findPrimes(1, 30);
+isPrime(13);
+isPrime(2);
+isPrime(15);
+findPrimes(30);
+findPrimes(1, 30);
+findPrimes(isPrime 1, 30);
+findPrimes(isPrime [1, 30]);
+findPrimes(isPrime [1, 30])
+findPrimes(isPrime [1, 30];)
+findPrimes(isPrime [1-30])
+findPrimes(1, 30);
+/open ej 2
+/open ej 2
+/open ej 2
+/open ej 2
+/open ej 2
+/open ej 2
+/open ej 2
+/open prueba ej2
+/open prueba ej2
+isPrime(13);
+isPrime(6);
+isPrime(15);
+/open prueba ej2
+/open prueba ej2
+/open prueba ej2
+/open prueba ej2
+/open prueba ej2
+/open ej 2
+/open ej 2
+/list
+findPrimes(2, 30);
+save /history
+save --history
+/help /history
+/history
+/history history
+/history --history
+/--history --history
+/save /history 
+/save E:\ASIX\M3\Practica 2\m3-uf1-exc2-master/history
+/save E:\ASIX\M3\Practica 2\m3-uf1-exc2-master/history
+/save -history 20-02-04-history

@@ -1,0 +1,61 @@
+	String intToBinaryWithSeparator(int n, String separator) {
+		String str = String.format("%032d", new java.math.BigInteger(Integer.toBinaryString(n)));
+
+		String[] as = str.split("(?<=\\G........)");
+
+		java.util.stream.Stream<String> streamIn = java.util.Arrays.stream(as);
+
+		java.util.stream.Stream<String> streamOut = streamIn.map(s -> {
+			java.lang.StringBuilder sb = new java.lang.StringBuilder(s);
+			sb.insert(4, '_');
+			return sb.toString();
+		});
+
+		return streamOut.collect(java.util.stream.Collectors.joining(separator));
+	}
+	String intToBin(int n) {
+		return intToBinaryWithSeparator(n, " , ");
+	}
+findPrimes(1, 30);
+isPrime(13);
+isPrime(2);
+isPrime(15);
+findPrimes(1, 30);
+findPrimes(1, 30);
+isPrime(13);
+isPrime(6);
+isPrime(15);
+int iInicioRango = 50;
+int iFinRango = 97;
+void esPrimo(int numero){
+  int contador = 2;
+  boolean primo=true;
+  while ((primo) && (contador!=numero)){
+    if (numero % contador == 0)
+      primo = false;
+    contador++;
+  }
+  print (primo);
+}
+void isPrime(int n) {
+    Boolean Primo = true;
+    if(n<2)
+    {
+        Primo = false;
+    }
+    else
+    {
+        for(int x=2; x*x<= n; x++)
+        {
+            if( n%x==0 ){Primo = false;break;}
+        }
+    }
+    print (Primo);
+}
+void findPrimes(int a, int b){
+while( a <= b){
+ isPrime(a);
+a++;
+}
+}
+findPrimes(2, 30);
